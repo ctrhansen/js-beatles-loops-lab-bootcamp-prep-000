@@ -8,14 +8,16 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(arrFacts) {
   let i = 0 
   while (arrFacts.length > i) {
-    arrFacts[i] += "!!!" ; i++
+    arrFacts[i] += "!!!" ; 
+    i++
   }
   return arrFacts
 }
 function iLoveTheBeatles(n){
   var arr = [];
-  do {arr.push("I love the Beatles!");
-    ++n;
+  do {
+    arr.push("I love the Beatles!");
+    n++;
   } while (n < 15);
   return arr
 }
