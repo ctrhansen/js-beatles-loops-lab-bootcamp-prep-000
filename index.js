@@ -5,6 +5,7 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return arr
 }
+
 function johnLennonFacts(arrFacts) {
   let i = 0 
   while (arrFacts.length > i) {
